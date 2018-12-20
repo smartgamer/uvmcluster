@@ -1,5 +1,5 @@
 
-
+#https://www.r-bloggers.com/k-means-clustering-in-r/
 rna = read.csv("data_RNA_Seq_v2_expression_median.txt", sep = "\t", stringsAsFactors = F)
 row.names(rna)=rna$Entrez_Gene_Id
 str(rna)
